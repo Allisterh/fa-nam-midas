@@ -1,0 +1,43 @@
+# Licensed data: never commit
+*.csv
+*.rds
+*.RData
+*.rda
+data/
+Results/
+uploads/
+
+# Generated outputs
+*.pdf
+*.png
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+procrustes_outputs*/
+figures/
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+.vscode/
